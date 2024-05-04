@@ -1,0 +1,35 @@
+What I have learned
+- Layouts and Pages
+    - File structure routing
+- Figure out how to set up a local dev environment to build a database when I don't have internet
+
+Navigating between Pages with <Link />
+- Page routing
+
+Setting up a database
+- connecting the postgres db to vercel
+- Fetch data with sql
+- *** maybe next learn the prisma / ORM
+- Fetch data through components and types
+    - Talking to the DB through actions.ts functions
+
+Static vs. Dynamic rendering
+- building a layout page with the static materials
+- building the page with Suspense, and a fallback component
+- Stream the component data one seperately to make sure that there is still something for the user
+
+Search and Pagination
+- Search to change the URL, with [id] file routing and the URL search param
+- *** this was really interesting, and can be important for building large scale dynamic apps
+
+Mutating data
+- Writing sql queries to add, update or delete from the database.
+- *** try to build out an app with a different database schema
+- Server side form type acceptance
+
+Adding Auth
+- Making sure that the users are authenticated when they are on the app
+- Dive into what is going on so that I can impliment a 2FA or google authentication
+
+Metadata
+- Learn more about opengraph and Frames for warpcast
